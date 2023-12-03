@@ -1,0 +1,8 @@
+{
+    "userId": {
+        "ref": "#/relationship/mongodb-atlas/poucouValley/users",
+        "source_key": "userId",
+        "foreign_key": "_id",
+        "is_list": false
+    }
+}

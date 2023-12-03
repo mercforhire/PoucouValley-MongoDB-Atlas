@@ -1,0 +1,48 @@
+{
+    "primaryKey": "_id",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "apiKey": {
+            "bsonType": "string"
+        },
+        "createdDate": {
+            "bsonType": "date"
+        },
+        "deviceTokens": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "deviceToken": {
+                        "bsonType": "string"
+                    },
+                    "sid": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "email": {
+            "bsonType": "string"
+        },
+        "markForDeletion": {
+            "bsonType": "bool"
+        },
+        "settings": {
+            "bsonType": "object"
+        },
+        "userType": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "email",
+        "userType",
+        "createdDate",
+        "apiKey"
+    ],
+    "title": "users"
+}

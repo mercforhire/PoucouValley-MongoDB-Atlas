@@ -1,0 +1,8 @@
+{
+    "from_secret": false,
+    "name": "business_settings",
+    "value": {
+        "test": 10,
+        "test2": 20
+    }
+}

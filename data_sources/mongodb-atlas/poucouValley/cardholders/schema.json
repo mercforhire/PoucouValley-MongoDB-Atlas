@@ -1,0 +1,118 @@
+{
+    "primaryKey": "_id",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "address": {
+            "bsonType": "object",
+            "properties": {
+                "city": {
+                    "bsonType": "string"
+                },
+                "country": {
+                    "bsonType": "string"
+                },
+                "postalCode": {
+                    "bsonType": "string"
+                },
+                "province": {
+                    "bsonType": "string"
+                },
+                "street": {
+                    "bsonType": "string"
+                },
+                "streetNumber": {
+                    "bsonType": "string"
+                },
+                "unitNumber": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "avatar": {
+            "bsonType": "object",
+            "properties": {
+                "fullUrl": {
+                    "bsonType": "string"
+                },
+                "thumbnameUrl": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "birthday": {
+            "bsonType": "object",
+            "properties": {
+                "day": {
+                    "bsonType": "int"
+                },
+                "month": {
+                    "bsonType": "int"
+                },
+                "year": {
+                    "bsonType": "int"
+                }
+            }
+        },
+        "card": {
+            "bsonType": "string"
+        },
+        "contact": {
+            "bsonType": "object",
+            "properties": {
+                "email": {
+                    "bsonType": "string"
+                },
+                "facebook": {
+                    "bsonType": "string"
+                },
+                "instagram": {
+                    "bsonType": "string"
+                },
+                "phoneAreaCode": {
+                    "bsonType": "string"
+                },
+                "phoneNumber": {
+                    "bsonType": "string"
+                },
+                "twitter": {
+                    "bsonType": "string"
+                },
+                "website": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "createdDate": {
+            "bsonType": "date"
+        },
+        "firstName": {
+            "bsonType": "string"
+        },
+        "gender": {
+            "bsonType": "string"
+        },
+        "interests": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "lastName": {
+            "bsonType": "string"
+        },
+        "pronoun": {
+            "bsonType": "string"
+        },
+        "userId": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id",
+        "userId",
+        "createdDate"
+    ],
+    "title": "cardholders"
+}

@@ -1,0 +1,24 @@
+{
+    "primaryKey": "_id",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "code": {
+            "bsonType": "string"
+        },
+        "createdDate": {
+            "bsonType": "date"
+        },
+        "email": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "email",
+        "code",
+        "createdDate"
+    ],
+    "title": "verifyCodes"
+}

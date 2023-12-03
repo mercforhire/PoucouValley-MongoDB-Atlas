@@ -1,0 +1,25 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "associatedCardholder": {
+            "bsonType": "objectId"
+        },
+        "associatedMerchant": {
+            "bsonType": "objectId"
+        },
+        "number": {
+            "bsonType": "string"
+        },
+        "pin": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "number",
+        "pin"
+    ],
+    "title": "cards"
+}

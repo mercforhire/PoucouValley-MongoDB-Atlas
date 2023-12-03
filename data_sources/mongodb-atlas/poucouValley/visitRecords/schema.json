@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "createdDate": {
+            "bsonType": "date"
+        },
+        "merchantUserId": {
+            "bsonType": "objectId"
+        },
+        "userId": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id",
+        "createdDate",
+        "userId",
+        "merchantUserId"
+    ],
+    "title": "visitRecords"
+}

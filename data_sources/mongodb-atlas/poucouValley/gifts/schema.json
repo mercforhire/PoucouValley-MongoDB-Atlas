@@ -1,0 +1,45 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "costInCoins": {
+            "bsonType": "int"
+        },
+        "createdDate": {
+            "bsonType": "date"
+        },
+        "description": {
+            "bsonType": "string"
+        },
+        "description2": {
+            "bsonType": "string"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "photos": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "fullUrl": {
+                        "bsonType": "string"
+                    },
+                    "thumbnailUrl": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        }
+    },
+    "required": [
+        "_id",
+        "createdDate",
+        "name",
+        "costInCoins",
+        "description",
+        "photos"
+    ],
+    "title": "gifts"
+}

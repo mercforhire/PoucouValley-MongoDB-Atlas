@@ -1,0 +1,14 @@
+{
+    "cardNumber": {
+        "ref": "#/relationship/mongodb-atlas/poucouValley/cards",
+        "source_key": "cardNumber",
+        "foreign_key": "number",
+        "is_list": false
+    },
+    "merchantUserId": {
+        "ref": "#/relationship/mongodb-atlas/poucouValley/users",
+        "source_key": "merchantUserId",
+        "foreign_key": "_id",
+        "is_list": false
+    }
+}

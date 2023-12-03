@@ -1,0 +1,803 @@
+[
+    {
+        "name": "utils_getGiftRedemption",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getCardById",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_explorePlans",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getUserByEmail",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_addCardToCardholder",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getGoal",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getCode",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getVisitRecord",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_deleteCard",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getCardByNumber",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_addRandomClient",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_checkCode",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_getRandomCardholder",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_getRandomGift",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_getRandomMerchant",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_addMoneyToWallet",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getWalletByUserId",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getGift",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchCompletedGoals",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_getActivatedCardholders",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_exploreShops",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_redeemGift",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_addGoal",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_addRandomPlan",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_addGift",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_addCardholderToMerchantClients",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "test_setup_cardholder",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_followMerchant",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchMyCard",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "test_restapi",
+        "private": true,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "utils_createNewCardholder",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_addPlan",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_getPoucouCardBulletPoints",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_addGiftRedemption",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_addAccomplishment",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchGetStartedSteps",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "api_fetchGifts",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchGoals",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "utils_verifyAPIKey",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getClient",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_registerRandomUser",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getDeleteAccountRequest",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_getRandomUser",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchTransactions",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "test_addRandomScan",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_setup_merchant",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_getScannedUsers",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getCardholderByCardNumber",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_deleteAccount",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "test_addRandomPromotion",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_loginByAPIKey",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_getFollowers",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "test_getRandomGoal",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_addPromotion",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_scanCard",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_initWallet",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_addAccomplishment",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "utils_getWalletById",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_updateMerchantInfo",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_login_auth",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchFollowedShops",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getPlan",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchPromotions",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "test_randomPhoto",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getTransaction",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_checkRegisterEmail",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_updateCardholderInfo",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "test_addRandomVisit",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_recordVisit",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getUserByAPIKey",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_addClient",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_addClient",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_checkLoginEmail",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "test_getRandomCard",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_checkCardAndPin",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_logOut",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_registerByCard",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getMerchantById",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getNumberOfFollowers",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_getInputtedClients",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getClientByCardholderAndMerchantUserId",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_addRandomFollow",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_generateAPIKey",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_sendEmailCode",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "test_randomRedeem",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_loginByCard",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_createNewMerchant",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_existWallet",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_existUser",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_deleteCollection",
+        "private": true,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "api_register",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_getBusinessTypes",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getNumberOfVisits",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_getMerchantCards",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_login",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "test_addRandomAccomplishment",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_addRandomCardToMerchant",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_addRandomGift",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_checkCardAvailable",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getUserById",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_getRandomBusinessType",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getDeleteAccountRequestByUserId",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getCardholderById",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_getPromotion",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "test_addRandomCard",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchWallet",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "test_getRandomWallet",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_editClient",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_editClient",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_getRandomClient",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_editClient",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_deleteClients",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_deleteClients",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_getScannedClients",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_getActivatedClients",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_getFollowedClients",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_getClientGroupsStatistics",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_setAssociatedCardholderToCard",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_removeAssociatedCardholderFromCard",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_setAssociatedMerchantToCard",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_removeAssociatedMerchantFromCard",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_set_and_unset_associatedCardholder",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_set_and_unset_associatedMerchant",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_addCardToMerchant",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_unfollowMerchant",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchMerchant",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_transferMoney",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_addAccomplishments",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "utils_getAccomplishment",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_addScanTransaction",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_fix_collection",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_searchPlans",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_searchPlans",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_searchShops",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_searchShops",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchFollowShopStatus",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchMerchantPlans",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_editPlan",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_editPlan",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_getVisitors",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_addMoney",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchPerformanceData",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchRelatedPlans",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_getClients",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchClient",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_addCard",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_addCards",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "test_randomPhotos",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "twilio_add_device_to_identity",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_registerDeviceToken",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "twilio_fetch_identity",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "twilio_send_msg_to_identity",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "twilio_remove_device_from_identity",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_unregisterDeviceToken",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "test_addRandmVisitBetweenDates",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_fetchMerchantTransactions",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_sendCardScannedMessage",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "utils_setUserSettings",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "api_setUserSettings",
+        "private": false,
+        "run_as_system": true
+    }
+]

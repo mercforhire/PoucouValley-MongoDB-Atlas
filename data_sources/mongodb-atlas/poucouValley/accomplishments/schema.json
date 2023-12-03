@@ -1,0 +1,19 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "goalId": {
+            "bsonType": "objectId"
+        },
+        "userId": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id",
+        "goalId",
+        "userId"
+    ],
+    "title": "accomplishments"
+}

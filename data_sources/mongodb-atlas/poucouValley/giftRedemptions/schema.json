@@ -1,0 +1,79 @@
+{
+    "primaryKey": "_id",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "createdDate": {
+            "bsonType": "date"
+        },
+        "gift": {
+            "bsonType": "object",
+            "properties": {
+                "_id": {
+                    "bsonType": "objectId"
+                },
+                "costInCoins": {
+                    "bsonType": "int"
+                },
+                "createdDate": {
+                    "bsonType": "date"
+                },
+                "description": {
+                    "bsonType": "string"
+                },
+                "description2": {
+                    "bsonType": "string"
+                },
+                "name": {
+                    "bsonType": "string"
+                },
+                "photos": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "fullUrl": {
+                                "bsonType": "string"
+                            },
+                            "thumbnailUrl": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "transaction": {
+            "bsonType": "object",
+            "properties": {
+                "cost": {
+                    "bsonType": "int"
+                },
+                "createdDate": {
+                    "bsonType": "date"
+                },
+                "itemId": {
+                    "bsonType": "objectId"
+                },
+                "itemName": {
+                    "bsonType": "string"
+                },
+                "itemType": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "userId": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id",
+        "createdDate",
+        "userId",
+        "gift",
+        "transaction"
+    ],
+    "title": "giftRedemptions"
+}

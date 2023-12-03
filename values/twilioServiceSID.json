@@ -1,0 +1,5 @@
+{
+    "name": "twilioServiceSID",
+    "value": "twilioServiceSID",
+    "from_secret": true
+}

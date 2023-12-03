@@ -1,0 +1,8 @@
+{
+    "ownerId": {
+        "ref": "#/relationship/mongodb-atlas/poucouValley/merchants",
+        "source_key": "ownerId",
+        "foreign_key": "userId",
+        "is_list": false
+    }
+}

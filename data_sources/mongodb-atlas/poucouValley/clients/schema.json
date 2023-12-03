@@ -1,0 +1,129 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "address": {
+            "bsonType": "object",
+            "properties": {
+                "city": {
+                    "bsonType": "string"
+                },
+                "country": {
+                    "bsonType": "string"
+                },
+                "postalCode": {
+                    "bsonType": "string"
+                },
+                "province": {
+                    "bsonType": "string"
+                },
+                "street": {
+                    "bsonType": "string"
+                },
+                "streetNumber": {
+                    "bsonType": "string"
+                },
+                "unitNumber": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "avatar": {
+            "bsonType": "object",
+            "properties": {
+                "fullUrl": {
+                    "bsonType": "string"
+                },
+                "thumbnailUrl": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "birthday": {
+            "bsonType": "object",
+            "properties": {
+                "day": {
+                    "bsonType": "int"
+                },
+                "month": {
+                    "bsonType": "int"
+                },
+                "year": {
+                    "bsonType": "int"
+                }
+            }
+        },
+        "cardholderUserId": {
+            "bsonType": "objectId"
+        },
+        "company": {
+            "bsonType": "string"
+        },
+        "contact": {
+            "bsonType": "object",
+            "properties": {
+                "email": {
+                    "bsonType": "string"
+                },
+                "facebook": {
+                    "bsonType": "string"
+                },
+                "instagram": {
+                    "bsonType": "string"
+                },
+                "phoneAreaCode": {
+                    "bsonType": "string"
+                },
+                "phoneNumber": {
+                    "bsonType": "string"
+                },
+                "twitter": {
+                    "bsonType": "string"
+                },
+                "website": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "createdDate": {
+            "bsonType": "date"
+        },
+        "email": {
+            "bsonType": "string"
+        },
+        "firstName": {
+            "bsonType": "string"
+        },
+        "gender": {
+            "bsonType": "string"
+        },
+        "hashtags": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "jobTitle": {
+            "bsonType": "string"
+        },
+        "lastName": {
+            "bsonType": "string"
+        },
+        "notes": {
+            "bsonType": "string"
+        },
+        "ownerId": {
+            "bsonType": "objectId"
+        },
+        "pronoun": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "ownerId",
+        "createdDate"
+    ],
+    "title": "clients"
+}

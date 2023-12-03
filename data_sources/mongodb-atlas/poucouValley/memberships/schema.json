@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "createdDate": {
+            "bsonType": "timestamp"
+        },
+        "lengthInDays": {
+            "bsonType": "int"
+        },
+        "userId": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id",
+        "userId",
+        "createdDate",
+        "lengthInDays"
+    ],
+    "title": "memberships"
+}

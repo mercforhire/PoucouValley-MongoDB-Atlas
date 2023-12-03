@@ -1,0 +1,115 @@
+{
+    "primaryKey": "_id",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "address": {
+            "bsonType": "object",
+            "properties": {
+                "city": {
+                    "bsonType": "string"
+                },
+                "country": {
+                    "bsonType": "string"
+                },
+                "postalCode": {
+                    "bsonType": "string"
+                },
+                "province": {
+                    "bsonType": "string"
+                },
+                "street": {
+                    "bsonType": "string"
+                },
+                "streetNumber": {
+                    "bsonType": "string"
+                },
+                "unitNumber": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "cards": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "contact": {
+            "bsonType": "object",
+            "properties": {
+                "facebook": {
+                    "bsonType": "string"
+                },
+                "instagram": {
+                    "bsonType": "string"
+                },
+                "phoneAreaCode": {
+                    "bsonType": "string"
+                },
+                "phoneNumber": {
+                    "bsonType": "string"
+                },
+                "twitter": {
+                    "bsonType": "string"
+                },
+                "website": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "createdDate": {
+            "bsonType": "date"
+        },
+        "description": {
+            "bsonType": "string"
+        },
+        "field": {
+            "bsonType": "string"
+        },
+        "hashtags": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "logo": {
+            "bsonType": "object",
+            "properties": {
+                "fullUrl": {
+                    "bsonType": "string"
+                },
+                "thumbnailUrl": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "photos": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "fullUrl": {
+                        "bsonType": "string"
+                    },
+                    "thumbnailUrl": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "userId": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id",
+        "userId",
+        "createdDate"
+    ],
+    "title": "merchants"
+}

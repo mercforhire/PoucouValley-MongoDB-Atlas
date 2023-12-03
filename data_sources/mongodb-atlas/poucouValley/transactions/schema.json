@@ -1,0 +1,37 @@
+{
+    "primaryKey": "_id",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "cost": {
+            "bsonType": "int"
+        },
+        "createdDate": {
+            "bsonType": "date"
+        },
+        "itemId": {
+            "bsonType": "objectId"
+        },
+        "itemName": {
+            "bsonType": "string"
+        },
+        "merchantId": {
+            "bsonType": "objectId"
+        },
+        "type": {
+            "bsonType": "string"
+        },
+        "userId": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id",
+        "userId",
+        "cost",
+        "createdDate",
+        "type"
+    ],
+    "title": "transactions"
+}

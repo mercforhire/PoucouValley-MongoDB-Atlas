@@ -1,0 +1,24 @@
+{
+    "primaryKey": "_id",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "coins": {
+            "bsonType": "int"
+        },
+        "createdDate": {
+            "bsonType": "date"
+        },
+        "userId": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id",
+        "createdDate",
+        "userId",
+        "coins"
+    ],
+    "title": "wallets"
+}

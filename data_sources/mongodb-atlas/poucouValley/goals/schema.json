@@ -1,0 +1,19 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "goal": {
+            "bsonType": "string"
+        },
+        "reward": {
+            "bsonType": "int"
+        }
+    },
+    "required": [
+        "_id",
+        "goal",
+        "reward"
+    ],
+    "title": "goals"
+}

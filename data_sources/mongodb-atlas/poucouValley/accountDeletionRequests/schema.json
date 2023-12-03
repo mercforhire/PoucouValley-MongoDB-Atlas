@@ -1,0 +1,24 @@
+{
+    "primaryKey": "_id",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "createdDate": {
+            "bsonType": "date"
+        },
+        "reason": {
+            "bsonType": "string"
+        },
+        "userId": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id",
+        "createdDate",
+        "userId",
+        "reason"
+    ],
+    "title": "accountDeletionRequests"
+}

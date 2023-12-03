@@ -1,0 +1,27 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "cardNumber": {
+            "bsonType": "string"
+        },
+        "cardholderUserId": {
+            "bsonType": "objectId"
+        },
+        "createdDate": {
+            "bsonType": "date"
+        },
+        "merchantUserId": {
+            "bsonType": "objectId"
+        }
+    },
+    "required": [
+        "_id",
+        "createdDate",
+        "cardNumber",
+        "cardholderUserId",
+        "merchantUserId"
+    ],
+    "title": "scanRecords"
+}
